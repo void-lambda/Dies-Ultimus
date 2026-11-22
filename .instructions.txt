@@ -1,0 +1,12 @@
+
+# asm -> object file
+1. nasm -f elf64 engine.asm -o engine.o
+
+# fortran srandart '77
+2. gfortran -std=legacy -c main.f -o main.o
+
+# Linking files into one
+3. gfortran main.o engine.o -o dies_ultimus
+
+# Starting
+4. ./dies_ultimus

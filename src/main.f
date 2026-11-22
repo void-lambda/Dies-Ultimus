@@ -1,0 +1,6 @@
+      PROGRAM DIES
+      EXTERNAL ASMFNC
+      WRITE(*,*) 'INITIALIZING MAINFRAME...'
+      CALL ASMFNC()
+      WRITE(*,*) 'SYSTEM HALTED.'
+      END
